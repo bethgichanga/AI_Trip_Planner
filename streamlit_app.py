@@ -40,7 +40,11 @@ if submit_button and user_input.strip():
             answer = response.json().get("answer", "No answer returned.")
             markdown_content = f"""# 🌍 AI Travel Plan
 
+<<<<<<< HEAD
             # **Generated:** {datetime.datetime.now().strftime('%Y-%m-%d at %H:%M:%S')}  
+=======
+            # **Generated:** {datetime.datetime.now().strftime('%Y-%m-%d at %H:%M')}  
+>>>>>>> cc1bf31640fbfc152f501589145abfddc968dab2
             # **Created by:** Atriyo's Travel Agent
 
             ---
